@@ -1,0 +1,37 @@
+body {
+  background-image: url(../images/kikibackground.jpg);
+  height: 100%;
+  width: 100%;
+}
+
+#kikilogo {
+  margin-left: 40px;
+}
+
+#gamecontainerone {
+  position: static;
+  background-color: white;
+  height: 400px;
+  width: 275px;
+  margin-top: 40px;
+  margin-left: 230px;
+  border: 8px;
+  border-style: dashed;
+  border-color: pink;
+  border-radius: 20px;
+
+}
+
+#gamecontainertwo {
+    position: relative;
+    background-color: white;
+    height: 400px;
+    width: 275px;
+    margin-top: 40px;
+    border: 8px;
+    border-style: dashed;
+    border-color: pink;
+    border-radius: 20px;
+
+
+}
