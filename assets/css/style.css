@@ -33,5 +33,111 @@ body {
     border-color: pink;
     border-radius: 20px;
 
+}
+
+#currentWord {
+    letter-spacing: 10px;
+
+  }
+  h1,h2,h3,
+  h4,h5,h6 {
+      padding: 5px;
+  }
+
+#jijistart {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+
+#correctjiji {
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 20px;
+  padding-right: 20px;
+
+
+}
+
+
+#tryjiji {
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 135px;
+  padding-right: 20px;
+
+}
+
+h3 {
+  margin-top: 270px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 30px;
+  font-size: 80px;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+  margin-left: 10px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+#instructions {
+  margin-top: 270px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+#tryagain {
+  position: absolute;
+  bottom: 260px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+
+}
+
+@media only screen and (max-width: 980px) {
+
+  #gamecontainertwo {
+      position: relative;
+      background-color: white;
+      height: 400px;
+      width: 275px;
+      margin-top: 40px;
+      margin-left: 90px;
+      border: 8px;
+      border-style: dashed;
+      border-color: pink;
+      border-radius: 20px;
+
+  }
+
+
+  #gamecontainerone {
+    position: static;
+    background-color: white;
+    height: 400px;
+    width: 275px;
+    margin-top: 40px;
+    margin-left: 200px;
+    border: 8px;
+    border-style: dashed;
+    border-color: pink;
+    border-radius: 20px;
+
+  }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+}
+
+@media only screen and (max-width: 640px) {
+
 
 }

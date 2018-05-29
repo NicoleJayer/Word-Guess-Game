@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="../Word-Guess-Game/assets/css/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../Word-Guess-Game/assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans" rel="stylesheet">
   <script src="../Word-Guess-Game/assets/javascript/game.js"></script>
 
 </head>
@@ -15,6 +16,8 @@
 <!-- logo container to put logo image in and center with rows, begin setting up structure -->
 
 <body>
+
+
 
 <div class="logocontainer">
   <div class="row">
@@ -36,16 +39,42 @@
   <div class="row">
 
     <div class="col-md-5">
-    <div id="gamecontainerone"></div>
+      <div id="gamecontainerone">
+      <img id="jijistart" src="../Word-Guess-Game/assets/images/startjiji.png" height="250px" width="250px">
+      <img id="correctjiji" src="../Word-Guess-Game/assets/images/correctjiji.png" height="410px" width="290px">
+      <img id="tryjiji" src="../Word-Guess-Game/assets/images/tryjiji.gif" height="250px" width="240px">
+      <p id="instructions"> Guess a movie character using keys A-Z! </p>
+      <p id="tryagain">Uh oh! Press any key to try again... </p>
+      </div>
     </div>
 
     <div class="col-md-5">
-    <div id="gamecontainertwo"></div>
+    <div id="gamecontainertwo">
+                <p>Wins:</p>
+                <p id="totalWins"></p>
+                <p>Current Word:</p>
+                <p id="currentWord"></p>
+                <p>Guesses Remaining:</p>
+                <p id="remainingGuesses"></p>
+                <p>Letters Guessed:</p>
+                <p id="guessedLetters"></p>
+    </div>
     </div>
 
     <div class="col-md-2">&nbsp;</div>
 
   </div>
 </div>
+<script>
+        resetGame();
+        updateDisplay();
+</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+
+
+</body>
 
 <!-- end of play boxes -->
+
+</html>
